@@ -2,6 +2,10 @@
 
 A terminal Bluetooth LE scanner for spotting unwanted trackers: it identifies Apple AirTags and other Find My accessories from their advertisements, decodes their status and battery bits, and estimates distance and movement.
 
+Write-up: [My bike was stolen twice. The second time, I wrote a scanner.](https://nb.nb-limited.com/writing/tagfinder)
+
+It started as a hunt for my own stolen bike, which had an AirTag in the frame. The broadcast that leads you to your own tag also gives away one someone has planted on you, which is why it's described here as a tracker scanner.
+
 Built on published reverse-engineering of the Find My protocol ([Adam Catley's AirTag research](https://adamcatley.com/AirTag.html)).
 
 > Shared as a reference. Not actively maintained for external contributions.
@@ -71,4 +75,4 @@ Settings are saved to `settings.json` in the working directory: AirTag-only filt
 
 ## License
 
-[PolyForm Noncommercial 1.0.0](LICENSE): free for any noncommercial use with attribution. Commercial use needs a separate paid license; contact [NB Limited](https://nb-limited.com).
+[PolyForm Noncommercial 1.0.0](LICENSE): free for any noncommercial use with attribution. This repository is a showcase, so it doesn't take issues or pull requests. Forks are welcome under the license. Commercial use needs a separate paid license; contact [NB Limited](https://nb-limited.com).
