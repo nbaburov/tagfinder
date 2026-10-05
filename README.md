@@ -2,7 +2,7 @@
 
 A terminal Bluetooth LE scanner for spotting unwanted trackers: it identifies Apple AirTags and other Find My accessories from their advertisements, decodes their status and battery bits, and estimates distance and movement.
 
-Write-up: [My bike was stolen twice. The second time, I wrote a scanner.](https://nb.nb-limited.com/writing/tagfinder)
+Write-up: [My bike was stolen twice. The second time, I wrote a scanner.](https://nb.nb-limited.com/writing/my-bike-was-stolen-twice-the-second-time-i-wrote-a-scanner)
 
 It started as a hunt for my own stolen bike, which had an AirTag in the frame. The broadcast that leads you to your own tag also gives away one someone has planted on you, which is why it's described here as a tracker scanner.
 
